@@ -3,7 +3,7 @@ from SuffixTrie import SuffixTrie
 from LinesDB import LinesDB
 from WordDB import WordDB
 from SourceFilesDB import SourceDB
-
+from configure import text_files_path
 
 def initialize():
     """
@@ -16,7 +16,7 @@ def initialize():
     source_DB = SourceDB()
 
     print("Loading the files and preparing the system...")
-    for pack in os.walk("./2021-archive/python-3.8.4-docs-text/installing"):
+    for pack in os.walk(text_files_path):
         for f in pack[2]:
             file_path = pack[0] + "\\" + f
             with open(file_path, "r", encoding="utf8") as file:
