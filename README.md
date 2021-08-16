@@ -1,9 +1,9 @@
 # Auto-complete-sentences
-google project: Search and auto -complete sentences within given input text files, manipulating data with complex data-structures.
+## google project: 
 
-Auto-complete, is a feature in which an application predicts the rest of a string a user is typing.
+Search and auto -complete sentences within given input text files, manipulating data with complex data-structures.
 
-The purpose of the completion action is to make it easier for the user to find the most appropriate sentence.
+The purpose of the project is to give to the user automatic completion for sentences he writes and make it easier for the user to find the most appropriate sentence.
 
 Once entering some text the user will get the five closest completions to the input from pre-given texts.
 
